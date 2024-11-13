@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'Angelia Beauty';
-  src: url('../fonts/angelia_beauty/Angelia Beauty.ttf') format('truetype');
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -970,7 +971,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   left: 0;
   top: .05em;
-  font-family: 'Angelia Beauty';
+  font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1653,7 +1654,7 @@ form label {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'Angelia Beauty';
+  font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
