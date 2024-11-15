@@ -20,6 +20,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'elometha';
+    src: url("../fonts/elometha/Elometha.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* =======================================================
 *
 * 	Template Style 
@@ -316,7 +323,7 @@ figure {
     margin: 0;
     padding: 0;
     line-height: 40px;
-    font-family: "angelia";
+    font-family: "elometha";
     font-weight: 550;
     /* color: #e0304d; */
 }
@@ -1148,7 +1155,7 @@ form label {
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
-    font-family: "bridal";
+    font-family: "elometha";
 }
 
 @media screen and (max-width: 768px) {
@@ -1388,7 +1395,7 @@ form label {
 }
 
 .couple-half h3 {
-    font-family: "angelia";
+    font-family: "elometha";
     color: #F14E95;
     font-size: 30px;
 }
@@ -1526,7 +1533,7 @@ form label {
     line-height: 1.5;
     font-weight: bold;
     color: #F14E95;
-    font-family: "bridal";
+    font-family: "elometha";
 }
 
 @media screen and (max-width: 768px) {
