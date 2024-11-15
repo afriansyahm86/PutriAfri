@@ -7,8 +7,8 @@
 }
 
 @font-face {
-    font-family: 'angelia';
-    src: url("../fonts/angelia_beauty/Angelia\ Beauty.ttf");
+    font-family: 'bridal';
+    src: url("../fonts/bridal_beauty/bridal\ Beauty.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -316,7 +316,7 @@ figure {
     margin: 0;
     padding: 0;
     line-height: 40px;
-    font-family: "angelia";
+    font-family: "bridal";
     font-weight: 550;
     /* color: #e0304d; */
 }
@@ -1148,7 +1148,7 @@ form label {
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
-    font-family: "angelia";
+    font-family: "bridal";
 }
 
 @media screen and (max-width: 768px) {
@@ -1388,7 +1388,7 @@ form label {
 }
 
 .couple-half h3 {
-    font-family: "angelia";
+    font-family: "bridal";
     color: #F14E95;
     font-size: 30px;
 }
@@ -1526,7 +1526,7 @@ form label {
     line-height: 1.5;
     font-weight: bold;
     color: #F14E95;
-    font-family: "angelia";
+    font-family: "bridal";
 }
 
 @media screen and (max-width: 768px) {
