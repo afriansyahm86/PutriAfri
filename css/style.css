@@ -13,6 +13,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'bridal';
+    src: url("../fonts/bridal_routine/Bridal_Routine\ Demo.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* =======================================================
 *
