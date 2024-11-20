@@ -340,32 +340,11 @@
                     </p>
                     <p style="font-size: 15px; font-style: italic;">“Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, serta semoga Allah mempersatukan kalian berdua dalam kebaikan”</p>
                     <p style="font-size: 20px; color: #F14E95;">(HR. Abu Dawud no. 2130).</p>
-			<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salin String Tanpa JavaScript</title>
-    <style>
-       function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("myInput");
-
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
-
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
-
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
-}
-    </style>
-</head>
 <body>
 <input type="text" value="Hello World" id="myInput">
 
 <!-- The button used to copy the text -->
-<button onclick="myFunction()">Copy text</button>
+<button onclick="document.getElementById("myInput"); alert("Copied the text: " + copyText.value);">Copy </button>
 	</body>
 
                 </div>
