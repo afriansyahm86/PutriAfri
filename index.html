@@ -373,6 +373,11 @@
     
     <!-- Tombol salin menggunakan input -->
   <form>
+	  <!-- The text field -->
+<input type="text" value="Hello World" id="text-to-copy">
+
+<!-- The button used to copy the text -->
+<button onclick="document.getElementById('text-to-copy').select();">Copy text</button>
         <input class="hidden-input" id="text-to-copy" type="text" value="Ini adalah teks hardcode yang bisa disalin.">
         <button  class="copy-button" onclick="document.getElementById('text-to-copy').select(); document.execCommand('copy');">huft</button>
    </form>
