@@ -1174,8 +1174,8 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
     margin-bottom: 0px;
-    font-size: 100px;
-    line-height: 1.5;
+    font-size: 180px;
+    line-height: 1;
     font-family: "elometha";
 }
 
@@ -1183,7 +1183,7 @@ form label {
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {
-        font-size: 40px;
+        font-size: 100px;
     }
 }
 
@@ -1191,7 +1191,7 @@ form label {
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 }
 
