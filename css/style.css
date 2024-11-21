@@ -1183,7 +1183,7 @@ form label {
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {
-        font-size: 100px;
+        font-size: 40px;
     }
 }
 
@@ -1191,14 +1191,14 @@ form label {
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-    font-size: 50px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 10px;
     font-family: "sinera";
