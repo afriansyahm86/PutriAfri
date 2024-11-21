@@ -1416,7 +1416,7 @@ form label {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    width: 200px;
+    width: 150px;
     height: 150px;
 }
 
@@ -1455,7 +1455,7 @@ form label {
 }
 
 .couple-half .desc-groom {
-    padding-right: 180px;
+    padding-right: 130px;
     text-align: right;
 }
 
