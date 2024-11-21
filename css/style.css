@@ -1413,7 +1413,7 @@ form label {
 
 @media screen and (max-width: 768px) {
     .couple-half {
-        width: 50%;
+        width: 150%;
     }
 }
 
