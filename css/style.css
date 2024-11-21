@@ -41,6 +41,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'arleta';
+    src: url("../fonts/ARLETA/ARLETA.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* =======================================================
 *
 * 	Template Style 
@@ -1411,7 +1418,7 @@ form label {
 }
 
 .couple-half h3 {
-    font-family: "sinera";
+    font-family: "ARLETA";
     color: #F14E95;
     font-size: 35px;
 }
