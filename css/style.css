@@ -337,7 +337,7 @@ figure {
     margin: 0;
     padding: 0;
     line-height: 40px;
-    font-family: "askhora";
+    font-family: "sinera";
     font-weight: 550;
     /* color: #e0304d; */
 }
@@ -1169,7 +1169,7 @@ form label {
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
-    font-family: "elometha";
+    font-family: "sinera";
 }
 
 @media screen and (max-width: 768px) {
@@ -1194,7 +1194,7 @@ form label {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
-    font-family: "askhora";
+    font-family: "sinera";
 }
 
 @media screen and (max-width: 480px) {
@@ -1202,7 +1202,7 @@ form label {
     #fh5co-counter .display-tc h2,
     .fh5co-cover .display-tc h2 {
         font-size: 16px;
-        font-family: "askhora";
+        font-family: "sinera";
     }
 }
 
@@ -1411,7 +1411,7 @@ form label {
 }
 
 .couple-half h3 {
-    font-family: "elometha";
+    font-family: "sinera";
     color: #F14E95;
     font-size: 35px;
 }
@@ -1549,7 +1549,7 @@ form label {
     line-height: 1.5;
     font-weight: bold;
     color: #F14E95;
-    font-family: "elometha";
+    font-family: "sinera";
 }
 
 @media screen and (max-width: 768px) {
