@@ -1433,7 +1433,7 @@ form label {
 @media screen and (max-width: 480px) {
     .couple-half .groom,
     .couple-half .bride {
-        width: 100%;
+        width: 150%;
         height: 140px;
     }
     .couple-half .groom img,
@@ -1455,7 +1455,7 @@ form label {
 }
 
 .couple-half .desc-groom {
-    padding-right: 130px;
+    padding-right: 180px;
     text-align: right;
 }
 
