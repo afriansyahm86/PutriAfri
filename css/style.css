@@ -27,6 +27,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'askhora';
+    src: url("../fonts/askhora/Askhora.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* =======================================================
 *
 * 	Template Style 
@@ -323,7 +330,7 @@ figure {
     margin: 0;
     padding: 0;
     line-height: 40px;
-    font-family: "bridal";
+    font-family: "askhora";
     font-weight: 550;
     /* color: #e0304d; */
 }
