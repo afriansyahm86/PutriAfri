@@ -1489,7 +1489,7 @@ form label {
         text-align: center;
     }
     .couple-half .desc-bride {
-        padding-left: 100;
+        padding-left: 0;
         text-align: center;
     }
 }
