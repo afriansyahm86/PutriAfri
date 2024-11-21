@@ -34,6 +34,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'askhora';
+    src: url("../fonts/askhora/Askhora.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* =======================================================
 *
 * 	Template Style 
