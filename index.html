@@ -55,6 +55,11 @@
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
 	<![endif]-->
+	<script>
+$( "#success-btn" ).click(function() {
+  $( "div.success" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+});
+</script>
 
 </head>
 
@@ -353,7 +358,7 @@
 			<!-- font-size: 14px; -->
 			<!-- cursor: pointer; -->
 			<!-- display: inline-block;" -->
-		    <a onclick="document.getElementById('myInput').select(); myFunction();
+		    <a id="success-btn" onclick="document.getElementById('myInput').select(); 
 			document.execCommand('copy');" style=" background-color: #edf0ef; /* Green */
   								border: none;
   								color: black;
@@ -372,6 +377,10 @@
 		</button>-->
 			</input>
 	    </form>
+			<div class="success" style="padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;">Successful Alert !!!</div>
 		     <form>
 		<input  style="position: absolute; left: -9999px;" 
 			type="text" 
