@@ -60,6 +60,11 @@
 </head>
 
 <body id="page-top">
+<audio controls loop id="myAudio">
+ 	<source src="images/OR.mp3"
+        type='audio/mpeg'>
+	Your user agent does not support the HTML5 Audio element.
+</audio>
     <div class="fh5co-loader"></div>
     <div id="page">
         <nav class="fh5co-nav" role="navigation">
@@ -94,11 +99,6 @@
 
             </div>
         </nav>
-	    <audio controls loop id="myAudio">
- <source src="images/OR.mp3"
-         type='audio/mpeg'>
- Your user agent does not support the HTML5 Audio element.
-	</audio>
 	<script>
 	function aud_play_pause() {
   	var myAudio = document.getElementById("myAudio");
