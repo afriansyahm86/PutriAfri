@@ -65,17 +65,7 @@
  Your user agent does not support the HTML5 Audio element.
 </audio>
 
-    <div class="fh5co-loader"> <button type="button" onclick="aud_play_pause()">Play/Pause</button>
-<script>
-function aud_play_pause() {
-  var myAudio = document.getElementById("myAudio");
-  if (myAudio.paused) {
-    myAudio.play();
-  } else {
-    myAudio.pause();
-  }
-}
-</script></div>
+    <div class="fh5co-loader"></div>
 
     <div id="page">
         <nav class="fh5co-nav" role="navigation">
@@ -110,6 +100,17 @@ function aud_play_pause() {
 
             </div>
         </nav>
+	<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+	<script>
+	function aud_play_pause() {
+  	var myAudio = document.getElementById("myAudio");
+  	if (myAudio.paused) {
+    	myAudio.play();
+  	} else {
+    	myAudio.pause();
+  	}
+	}
+	</script>
 
         <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/pink.jpg);" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
