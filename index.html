@@ -64,7 +64,8 @@
  <source src="images/OR.mp3" type="audio/mpeg">
  Your user agent does not support the HTML5 Audio element.
 </audio>
-<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+
+    <div class="fh5co-loader"> <button type="button" onclick="aud_play_pause()">Play/Pause</button>
 <script>
 function aud_play_pause() {
   var myAudio = document.getElementById("myAudio");
@@ -74,13 +75,7 @@ function aud_play_pause() {
     myAudio.pause();
   }
 }
-</script>
-    <div class="fh5co-loader">
-	    <audio controls autoplay>
- 		 <source src="images/OR.mp3" type="audio/mpeg">
-  		Your browser does not support the audio tag.
-		</audio>
-    </div>
+</script></div>
 
     <div id="page">
         <nav class="fh5co-nav" role="navigation">
