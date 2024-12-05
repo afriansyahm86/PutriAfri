@@ -144,14 +144,14 @@
                                 <h1>Putri &amp; Afri</h1>
                                 <h2>Sabtu, 05 Januari 2025</h2>
                                 <!-- <div class="simply-countdown simply-countdown-one "></div> -->
-                                <p><a href="#mempelai" style="font-family: askhora;" class="js-scroll-trigger btn btn-default btn-sm" onclick="aud_play_pause()"><i style="color: #F14E95;" class="icon-play"></i>OPEN DETAIL</a></p>
+                                <p><a href="#mempelai" style="font-family: askhora;" class="js-scroll-trigger btn btn-default btn-sm" onclick="someFunc()"><i style="color: #F14E95;" class="icon-play"></i>OPEN DETAIL</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-<div>
+<div id="myDIV">
         <section>
             <div id="fh5co-couple">
                 <div class="container">
@@ -468,6 +468,22 @@
 	<script>
         alert('For better experience, you can open this invitation in your PC web ;)');
     	</script>
+	<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function someFunc() {
+    myFunction();
+    aud_play_pause();
+}
+</script>
 </body>
 
 </html>
