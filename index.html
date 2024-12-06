@@ -55,8 +55,95 @@
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
 	<![endif]-->
-	
+	<style>
+body {font-family: Arial, Helvetica, sans-serif;}
 
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
 </head>
 
 <body id="page-top">
@@ -111,29 +198,7 @@
 	</script>
 
         <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/pink.jpg);" data-stellar-background-ratio="0.5">
-	<!--<style>
-    	li{
-        cursor: pointer;
-    	}
-	</style>
-		<ul>
-        <li style="background:green;
-      display: block;
-      width: 50px;
-      height: 50px;
-      line-height: 50px;
-      text-align: center;
-      color: white;
-      font-size: 30px;
-      font-weight: bold;
-      border-radius: 50%;
-      -webkit-border-radius: 50%;
-      text-decoration: none;
-      transition: ease all 0.3s;
-      position: fixed;
-      right: 30px;
-      bottom: 60px;" onclick="aud_play_pause()"><i style="color: #F14E95;" class="icon-play"></i></li>
-    </ul>-->
+
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
@@ -276,10 +341,21 @@
             <div class="row row-bottom-padded-md">
                 <div class="col-md-12">
                     <ul id="fh5co-gallery-list">
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/AFR05066.jpg); ">
-                                <div class="case-studies-summary">
-					<img src="images/AFR05066.jpg" style="margin: auto; display: block; width: 80%; max-width: 700px;">
-                                </div>
+                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/AFR05066.jpg);"  onclick="model()">
+				<img src="images/AFR05066.jpg" style="display: none;">
+				<div id="myModal" class="case-studies-summary" style="display: none; /* Hidden by default */
+  									position: fixed; /* Stay in place */
+  									z-index: 1; /* Sit on top */
+  									padding-top: 100px; /* Location of the box */
+  									left: 0;
+  									top: 0;
+  									width: 100%; /* Full width */
+  									height: 100%; /* Full height */
+  									overflow: auto; /* Enable scroll if needed */
+  									background-color: rgb(0,0,0); /* Fallback color */
+  									background-color: rgba(0,0,0,0.9); /* Black w/ opacity */">
+  					<img class="modal-content" id="img01">
+				</div>
                         </li>
                         <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/AFR05151.jpg); ">
                             <a href="images/AFR05156.jpg">
@@ -402,6 +478,14 @@
     <script src="js/simplyCountdown.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
+
+    <script>
+	var modalImg = document.getElementById("img01");
+	function model() {
+  	modal.style.display = "block";
+  	modalImg.src = this.src;
+	}
+    </script>
     
     <script>
         var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
